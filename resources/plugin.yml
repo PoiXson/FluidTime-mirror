@@ -2,8 +2,10 @@ name: ${project.name}
 main: com.poixson.fluidtime.FluidTimePlugin
 version: ${project.version}
 api-version: ${spigot-short-version}
-depend: [ pxnCommonPluginMC ]
-softdepend: [ Multiverse-Core ]
+depend:
+  - pxnCommonPluginMC
+softdepend:
+  - Multiverse-Core
 authors: [ lorenzop ]
 website: ${project.url}
 description: ${project.description}
