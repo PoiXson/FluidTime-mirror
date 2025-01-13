@@ -1,11 +1,15 @@
 name: ${project.name}
 main: com.poixson.fluidtime.FluidTimePlugin
-version: ${project.version}
-api-version: ${spigot-short-version}
-depend:
-  - pxnPluginLib
-softdepend:
-  - Multiverse-Core
-authors: [ lorenzop ]
+version: '${project.version}'
+api-version: '${bukkit-short-version}'
+dependencies:
+    server:
+        VitalCore:
+            load: BEFORE
+            required: true
+        Multiverse-Core:
+            load: BEFORE
+            required: false
+authors: lorenzop
 website: ${project.url}
 description: ${project.description}
