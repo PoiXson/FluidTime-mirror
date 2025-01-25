@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Generated: Mon Jan 13 01:04:16 AM EST 2025 -->
+<!-- Generated: Fri Jan 24 07:26:03 PM EST 2025 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 		xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 		xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
@@ -38,10 +38,10 @@
 
 		<!-- Dependencies -->
 		<bukkit-short-version>1.21.4</bukkit-short-version>
-		<paper-api-version>1.21.4-R0.1</paper-api-version>
+		<paper-api-version>1.21.4-R0.1-SNAPSHOT</paper-api-version>
 		<common-core-version>[4.2.0${snap},4.3.0${snap})</common-core-version>
 		<vitalcore-version>[4.2.0${snap},4.3.0${snap})</vitalcore-version>
-		<fluidtime-version>[0.0.0${snap},0.2.0${snap})</fluidtime-version>
+		<fluidtime-version>[0.2.0${snap},0.3.0${snap})</fluidtime-version>
 	</properties>
 	<scm>
 		<url>https://git.poixson.com/summary/mc!FluidTime.git</url>
